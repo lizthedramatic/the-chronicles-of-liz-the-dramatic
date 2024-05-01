@@ -1,0 +1,99 @@
+header {
+  background-image: url(cederberg.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.652);
+}
+
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header-content {
+  margin-bottom: 150px;
+  color: paleturquoise;
+  text-align: left;
+}
+
+.header-content h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  color: paleturquoise;
+  padding-top: 5%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  max-width: 50%;
+}
+
+.text {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.bottom-img {
+  width: 100%;
+}
+
+img {
+  border-radius: 50%;
+  height: 100px;
+}
+archive/style.css h3 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.col text-center img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}
+.item {
+  flex: 1;
+  text-align: center;
+}
+
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    #ff8177,
+    #ff867a,
+    #ff8c7f,
+    #f99185,
+    #cf556c,
+    #b12a5b
+  );
+}
