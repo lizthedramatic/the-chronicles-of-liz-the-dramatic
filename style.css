@@ -1,4 +1,6 @@
 body {
+  font-family: "Poppins", sans-serif;
+  color: antiquewhite;
   background-image: linear-gradient(
     to right,
     #ff8177 0%,
@@ -24,4 +26,9 @@ body {
 
 .section {
   height: 100vh;
+}
+
+.title-text {
+  width: 50%;
+  float: left;
 }
