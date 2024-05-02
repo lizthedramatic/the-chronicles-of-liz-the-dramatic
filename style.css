@@ -1,6 +1,5 @@
 body {
   font-family: "Poppins", sans-serif;
-  color: antiquewhite;
   background-image: linear-gradient(
     to right,
     #ff8177 0%,
@@ -12,7 +11,11 @@ body {
   );
 }
 
-.navbar {
+.antiquewhite {
+  color: antiquewhite;
+}
+
+.navbar .dropdown-menu {
   background-image: linear-gradient(
     to right,
     #ff8177,
